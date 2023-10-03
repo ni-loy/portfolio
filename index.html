@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("xxBUUWFgcvbZh3cvB");
+   })();
+</script>
+
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+   <!-- home section design -->
+    <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Niloy</h1>
+        <h3>And I'm <span class="multiple-text"></span></h3>
+        <p>Front-end development encompasses the use of languages such as HTML, CSS, and JavaScript to craft interfaces that are both responsive and user-friendly, ensuring smooth functionality across various devices and browsers. Staying abreast of the latest web technologies and design trends is crucial for creating contemporary and visually engaging user interfaces.</p>
+   <div class="social-media">
+       <a href="#"><i class='bx bxl-facebook'></i></a>
+       <a href="#"><i class='bx bxl-twitter' ></i></a>
+       <a href="#"><i class='bx bxl-instagram' ></i></a>
+       <a href="#"><i class='bx bxl-linkedin' ></i></a>
+   </div>
+   <a href="#" class="btn">Download Cv</a>
+   </div>
+   <div class="home-img">
+       <img src="images/home.png" alt="">
+   </div>    
+    </section>
+    <!-- about section design -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/about.png" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">
+            About <span>Me</span>
+        </h2>
+        <h3>Fronted developer</h3>
+        <p>I'm a dedicated Fronted developer, proficient in HTML, CSS, and JavaScript. I love crafting user-friendly interfaces and staying updated with the latest web tech. Let's build something great!</p>
+    </div>
+</section>
+    <!-- services section design -->
+<section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <p>Crafting dynamic websites tailored to your needs. Elevate your online presence with our expert web development services.</p>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-paint' ></i>
+            <h3>Graphics Designer</h3>
+            <p>We specialize in exceptional graphic design services. Our creative team crafts visuals that leave a lasting impression. Elevate your brand with our designs.</p>
+        </div>
+        <div class="services-box">
+            <i class='bx bxs-videos'></i>
+            <h3>Video Editing</h3>
+            <p>We specialize in professional video editing services. Our team is dedicated to transforming raw footage into captivating visuals. Let us bring your vision to life!</p>
+        </div>
+    </div>
+</section>
+    <!-- portfolio section design -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Demo <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+           <img src="images/portfolio1.jpg" alt="">
+           <div class="portfolio-layer">
+               <h4>Blogging Web Design</h4>
+               <p>Front-end development involves using languages like HTML, CSS, and JavaScript.</p>
+               <a href="demo1.html">
+                   <i class='bx bx-link-external'></i></a>               
+           </div> 
+        </div>           
+        <div class="portfolio-box">
+           <img src="images/portfolio2.jpg" alt="">
+           <div class="portfolio-layer">
+               <h4>E-commerce Web Design</h4>
+               <p>Front-end development involves using languages like HTML, CSS, and JavaScript.</p>
+               <a href="demo2.html"><i class='bx bx-link-external'></i></a>
+           </div> 
+        </div>
+        <div class="portfolio-box">
+           <img src="images/portfolio3.jpg" alt="">
+           <div class="portfolio-layer">
+               <h4>Agency Web Design</h4>
+               <p>Front-end development involves using languages like HTML, CSS, and JavaScript.</p>
+               <a href="demo3.html"><i class='bx bx-link-external'></i></a>
+           </div> 
+        </div>
+        <div class="portfolio-box">
+           <img src="images/portfolio4.jpg" alt="">
+           <div class="portfolio-layer">
+               <h4>fitlife Web Design</h4>
+               <p>Front-end development involves using languages like HTML, CSS, and JavaScript.</p>
+               <a href="demo4.html"><i class='bx bx-link-external'></i></a>
+           </div> 
+        </div>
+        <div class="portfolio-box">
+           <img src="images/portfolio5.jpg" alt="">
+           <div class="portfolio-layer">
+               <h4>Restaurant Web Design</h4>
+               <p>Front-end development involves using languages like HTML, CSS, and JavaScript.</p>
+               <a href="demo5.html"><i class='bx bx-link-external'></i></a>
+           </div> 
+        </div>
+        <div class="portfolio-box">
+           <img src="images/portfolio6.jpg" alt="">
+           <div class="portfolio-layer">
+               <h4>Services Web Design</h4>
+               <p>Front-end development involves using languages like HTML, CSS, and JavaScript.</p>
+               <a href="demo6.html"><i class='bx bx-link-external'></i></a>
+           </div> 
+        </div>
+    </div>
+</section>
+    <!-- contact section design -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form autocomplete="off" action="#">
+        <div class="input-box">
+     <input type="text" id="name" required placeholder="Full Name">
+     <input type="email" id="email" required placeholder="Email Address">
+        </div>     
+        <textarea name="" id="massage" cols="30" rows="10" required placeholder="Massage"></textarea>
+        <button class="btn btn-primary" onclick="sendMail()">send massage</button>
+    </form>
+</section>
+    <!-- footer design -->
+<footer class="footer">
+    <div class="footer-text">
+        <p>copyright &copy; 2023 by niloy | All Right Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
